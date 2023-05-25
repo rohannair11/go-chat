@@ -1,3 +1,5 @@
+//contains code for creating the pool struct, which basically handles multiple clients and the phenomena when they register / unregister from the chat.
+
 package websocket
 
 import (

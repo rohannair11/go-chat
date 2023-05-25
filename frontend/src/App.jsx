@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from "./components/Header/Header"
 import ChatInput from "./components/ChatInput/ChatInput"
 import ChatHistory from "./components/ChatHistory/ChatHistory"
-import Message from "./components/Message/Message"
 import "./App.css"
 import {connect, sendMsg} from './api'
 
