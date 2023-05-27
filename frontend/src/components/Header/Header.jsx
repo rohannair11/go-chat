@@ -1,12 +1,10 @@
-import React from 'react'
-import "./Header.scss"
-const Header = () => {
-  return (
-    <div className='header'>
-      <h2>Go and React chat app</h2>
-      
-    </div>
-  )
-}
+import React from 'react';
+import './Header.scss';
 
-export default Header
+const Header = () => (
+  <div className='header'>
+    <h2>Go Chat</h2>
+  </div>
+);
+
+export default Header;
