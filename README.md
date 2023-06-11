@@ -13,3 +13,4 @@ Make sure you have `docker`, `go` and `npm/nodejs` installed.
 * `git clone` this repo
 * `cd` into it and run `docker-compose up`
 
+Inspired By Akhil Sharma's Golang Chat app. 
