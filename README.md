@@ -8,10 +8,8 @@ Learnt about websockets, goroutines, channels and concurrency.
 
 
 To test ->
-make sure you have GO and React / npm installed.
+Make sure you have docker installed. 
 
-Clone this repo and ->
-
-1. ``` cd backend && go run main.go ```
-2. open another terminal and ``` cd frontend && npm install && npm start ```
+* `git clone` this repo
+* `cd` into it and run `docker-compose up`
 
