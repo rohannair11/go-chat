@@ -8,7 +8,7 @@ Learnt about websockets, goroutines, channels and concurrency.
 
 
 To test ->
-Make sure you have docker installed. 
+Make sure you have `docker`, `go` and `npm/nodejs` installed. 
 
 * `git clone` this repo
 * `cd` into it and run `docker-compose up`
