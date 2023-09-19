@@ -12,5 +12,3 @@ Make sure you have `docker`installed.
 
 * `git clone` this repo
 * `cd` into it and run `docker-compose up`
-
-Inspired By Akhil Sharma's Golang Chat app. 
