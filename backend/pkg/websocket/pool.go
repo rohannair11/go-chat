@@ -1,4 +1,4 @@
-// pool handles multiple clients when they first register or unregister.
+// pool handles multiple clients when they first register / unregister.
 package websocket
 
 import "fmt"
