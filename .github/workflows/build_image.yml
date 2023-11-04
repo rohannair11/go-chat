@@ -8,14 +8,23 @@ on:
 
 jobs:
 
-  build:
+  build_frontend:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Frontend Docker image
+    - name: Build the Docker image
       run: docker build ./frontend --file frontend/Dockerfile --tag go-chat-frontend:$(date +%s)-${{ github.sha }}
       
-    - name: Build the Backend Docker image
+    
+
+  build_backend:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
       run: docker build ./backend --file backend/Dockerfile --tag go-chat-backend:$(date +%s)-${{ github.sha }}
+
