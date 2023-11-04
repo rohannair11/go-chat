@@ -5,8 +5,8 @@ Chat Application created using React, Go and websockets.
 Finishing up the details. 
 Learnt about websockets, goroutines, channels and concurrency. 
 
-To test ->
-Make sure you have `docker`installed. 
+## Testing
+Make sure you have `docker` installed. 
 
 * `git clone` this repo
 * `cd` into it and run `docker-compose up`
