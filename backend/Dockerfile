@@ -1,5 +1,5 @@
 # Use an official GoLang runtime as the base image
-FROM golang:1.16-alpine as builder
+FROM golang:1.20-alpine as builder
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -11,7 +11,7 @@ COPY . .
 RUN go build -o main
 
 #multistage docker images 
-FROM busybox as release
+FROM busybox
 
 WORKDIR /app
 
