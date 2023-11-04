@@ -1,5 +1,4 @@
-//contains code for creating the pool struct, which basically handles multiple clients when they register / unregister from the chat.
-
+// pool handles multiple clients when they first register or unregister.
 package websocket
 
 import "fmt"
